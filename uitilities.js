@@ -1,3 +1,4 @@
+// Get Money Input Value
 function getInputFieldValue(id) {
     const inputValue = document.getElementById(id).value
     const moneyInput = parseFloat(inputValue)

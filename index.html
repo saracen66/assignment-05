@@ -85,7 +85,9 @@
                 <span id="donation-amount-1">0</span><span> BDT</span>
               </p>
             </div>
-            <h2 class="font-bold">Donate for Flood at Noakhali, Bangladesh</h2>
+            <h2 id="card-1-title" class="font-bold">
+              Donate for Flood at Noakhali, Bangladesh
+            </h2>
             <p class="text-gray-500">
               The recent floods in Noakhali have caused significant damage to
               homes infrastructure. Your donation will help provide essential
@@ -103,6 +105,22 @@
             <button id="donate-btn-1" class="btn bg-btn-green font-bold w-full">
               Donate Now
             </button>
+            <dialog id="my_modal_1" class="modal">
+              <div
+                class="modal-box flex flex-col items-center text-center justify-center"
+              >
+                <h3 class="text-3xl font-bold mb-4">Congrates!</h3>
+                <img src="./assets/coin.png" alt="" />
+                <p class="py-4">You Have Donated for Humankind</p>
+                <p class="text-xl font-bold">Successfully</p>
+                <div class="modal-action">
+                  <form method="dialog">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn">close confirmation</button>
+                  </form>
+                </div>
+              </div>
+            </dialog>
           </div>
         </div>
 
@@ -128,7 +146,7 @@
                 <span id="donation-amount-2">600</span><span> BDT</span>
               </p>
             </div>
-            <h2 class="font-bold">
+            <h2 id="card-2-title" class="font-bold">
               Donate for Flood Relief in Feni,Bangladesh
             </h2>
             <p class="text-gray-500">
@@ -177,7 +195,9 @@
                 <span id="donation-amount-3">2400</span><span> BDT</span>
               </p>
             </div>
-            <h2 class="font-bold">Aid for Injured in the Quota Movement</h2>
+            <h2 id="card-3-title" class="font-bold">
+              Aid for Injured in the Quota Movement
+            </h2>
             <p class="text-gray-500">
               The recent Quota movement has resulted in numerous injuries and
               significant hardship for many individuals. Your support is crucial
@@ -203,13 +223,10 @@
       </section>
 
       <!-- History Section -->
-      <section id="history-section" class="w-6/12 mx-auto hidden">
-        <h1 class="2xl">testing</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium,
-          dolores?
-        </p>
-      </section>
+      <section
+        id="history-section"
+        class="lg:w-6/12 md:w-8/12 w-11/12 mx-auto hidden space-y-6"
+      ></section>
     </main>
     <script src="/uitilities.js"></script>
     <script src="/general.js"></script>
