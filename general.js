@@ -20,7 +20,7 @@ document.getElementById('donate-btn-1').addEventListener('click', function() {
     // Getting the Card Title
     const title = document.getElementById('card-1-title').innerText
     
-    if (moneyInput > mainBalanceFloat || moneyInput < 1) {
+    if (moneyInput > mainBalanceFloat || moneyInput < 1 || Number.isNaN(moneyInput)) {
         alert("Invalid Amount")
     }
 
@@ -83,7 +83,7 @@ document.getElementById('donate-btn-2').addEventListener('click', function() {
     // Getting the Card Title
     const title = document.getElementById('card-2-title').innerText
     
-    if (moneyInput > mainBalanceFloat || moneyInput < 1) {
+    if (moneyInput > mainBalanceFloat || moneyInput < 1 || Number.isNaN(moneyInput)) {
         alert("Invalid Amount")
     }
 
@@ -146,7 +146,7 @@ document.getElementById('donate-btn-3').addEventListener('click', function() {
     // Getting the Card Title
     const title = document.getElementById('card-3-title').innerText
     
-    if (moneyInput > mainBalanceFloat || moneyInput < 1) {
+    if (moneyInput > mainBalanceFloat || moneyInput < 1 || Number.isNaN(moneyInput)) {
         alert("Invalid Amount")
     }
 
